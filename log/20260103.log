@@ -1,0 +1,530 @@
+03-01-26 16:12:01 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+03-01-26 16:12:02 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:13:28 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+03-01-26 16:13:30 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:15:01 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+03-01-26 16:15:02 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:16:39 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:16:39 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:16:39 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:16:41 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:16:41 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:16:41 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:16:41 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:16:41 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:16:41 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:16:42 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:16:42 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:16:42 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:16:42 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:16:42 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:16:42 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:16:43 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:16:43 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:16:44 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:16:44 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:16:44 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:16:45 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:16:45 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:16:45 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:16:45 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:16:46 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:16:47 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:19:05 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:19:05 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:19:05 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:19:05 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:19:05 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:19:06 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:19:06 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:19:06 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:19:06 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:19:06 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:19:06 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:19:06 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:19:06 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:19:07 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:19:07 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:19:07 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:19:07 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:19:07 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:19:08 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:19:08 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:19:08 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:19:08 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:19:09 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:19:09 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:19:09 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:19:09 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:28:24 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:28:24 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:28:24 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:28:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:28:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:28:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:28:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:28:26 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:28:26 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:28:26 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:28:26 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:28:27 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:28:27 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:28:27 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:28:27 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:28:27 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:28:28 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:28:28 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:28:29 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:28:29 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:28:29 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:28:29 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:28:30 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:28:30 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:28:30 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:28:30 - connectionpool.py - 289 - DEBUG - Resetting dropped connection: us.i.posthog.com
+03-01-26 16:28:31 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:28:35 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:28:35 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:28:35 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:28:35 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:28:35 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:28:35 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:28:35 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:28:36 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:28:36 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:28:36 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:28:36 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:28:37 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:28:37 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:28:37 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:28:37 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:28:38 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:28:38 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:28:38 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:28:38 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:28:38 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:28:39 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:28:39 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:28:39 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:28:40 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:28:40 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:28:41 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:30:48 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:30:48 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:30:48 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:30:49 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:30:49 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:30:49 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:30:49 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:30:49 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:30:49 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:30:50 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:30:50 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:30:50 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:30:50 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:30:50 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:30:50 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:30:50 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:30:51 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:30:51 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:30:51 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:30:51 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:30:51 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:30:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:30:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:30:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:30:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:30:53 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:32:51 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:32:51 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:32:51 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:32:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:32:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:32:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:32:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:32:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:32:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:32:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:32:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:32:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:32:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:32:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:32:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:32:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:32:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:32:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:32:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:32:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:32:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:32:55 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:32:55 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:32:55 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:32:55 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:32:56 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:33:03 - cmd.py - 1270 - DEBUG - Popen(['git', 'version'], cwd=E:\project\RAG, stdin=None, shell=False, universal_newlines=False)
+03-01-26 16:33:04 - cmd.py - 1270 - DEBUG - Popen(['git', 'version'], cwd=E:\project\RAG, stdin=None, shell=False, universal_newlines=False)
+03-01-26 16:33:04 - util.py - 494 - DEBUG - sys.platform='win32', git_executable='git'
+03-01-26 16:33:47 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:34:51 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:34:51 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:34:51 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:34:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:34:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:34:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:34:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:34:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:34:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:34:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:34:52 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:34:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:34:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:34:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:34:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:34:53 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:34:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:34:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:34:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:34:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:34:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:34:54 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:34:55 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:34:55 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:34:55 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:34:55 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:36:23 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:36:23 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:36:23 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:36:23 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:36:23 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:36:24 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:36:24 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:36:24 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:36:24 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:36:24 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:36:24 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:36:24 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:36:24 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:36:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:36:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:36:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:36:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:36:25 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:36:26 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:36:26 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:36:26 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:36:26 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:36:27 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:36:27 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:36:27 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:36:28 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:38:01 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:38:01 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:38:01 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:38:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:38:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:38:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:38:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:38:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:38:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:38:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:38:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:38:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:38:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:38:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:38:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:38:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:38:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:38:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:38:04 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:38:04 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:38:04 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:38:04 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:38:05 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:38:05 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:38:05 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:38:05 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:38:25 - injest.py - 29 - ERROR - Ingestion failed....
+_path_isfile: path should be string, bytes, os.PathLike or integer, not UploadedFile
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 14, in ingest
+    file_type = detect_file_type(self._doc)
+  File "E:\project\RAG\utils\get_filetype.py", line 10, in detect_file_type
+    if not os.path.isfile(file_path):
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: _path_isfile: path should be string, bytes, os.PathLike or integer, not UploadedFile
+03-01-26 16:39:59 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:39:59 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:39:59 - connectionpool.py - 1049 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+03-01-26 16:40:00 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:40:00 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:40:00 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:40:00 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:40:00 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+03-01-26 16:40:00 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+03-01-26 16:40:00 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+03-01-26 16:40:00 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+03-01-26 16:40:01 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+03-01-26 16:40:01 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+03-01-26 16:40:01 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+03-01-26 16:40:01 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+03-01-26 16:40:01 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+03-01-26 16:40:01 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+03-01-26 16:40:01 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+03-01-26 16:40:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+03-01-26 16:40:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+03-01-26 16:40:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+03-01-26 16:40:02 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 6465
+03-01-26 16:40:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+03-01-26 16:40:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+03-01-26 16:40:03 - connectionpool.py - 544 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6908
+03-01-26 16:40:04 - connectionpool.py - 544 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+03-01-26 16:40:27 - injest.py - 29 - ERROR - Ingestion failed....
+_path_isfile: path should be string, bytes, os.PathLike or integer, not UploadedFile
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 14, in ingest
+    file_type = detect_file_type(self._doc)
+  File "E:\project\RAG\utils\get_filetype.py", line 10, in detect_file_type
+    # if not os.path.isfile(file_path):
+TypeError: _path_isfile: path should be string, bytes, os.PathLike or integer, not UploadedFile
+03-01-26 16:40:55 - injest.py - 29 - ERROR - Ingestion failed....
+_path_isfile: path should be string, bytes, os.PathLike or integer, not UploadedFile
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 14, in ingest
+    file_type = detect_file_type(self._doc)
+  File "E:\project\RAG\utils\get_filetype.py", line 10, in detect_file_type
+    # if not os.path.isfile(file_path):
+TypeError: _path_isfile: path should be string, bytes, os.PathLike or integer, not UploadedFile
+03-01-26 16:41:54 - injest.py - 16 - ERROR - Ingestion failed invalid file format
+03-01-26 16:44:59 - injest.py - 17 - ERROR - Ingestion failed invalid file format
+03-01-26 16:46:26 - injest.py - 29 - ERROR - Ingestion failed....
+File path UploadedFile(file_id='2a36e480-e33b-4653-94a8-d9e1c241304e', name='Scheduling Assignment.pdf', type='application/pdf', size=90298, _file_urls=file_id: "2a36e480-e33b-4653-94a8-d9e1c241304e"
+upload_url: "/_stcore/upload_file/7f5b64dc-851a-44a0-b979-4a6c34e25983/2a36e480-e33b-4653-94a8-d9e1c241304e"
+delete_url: "/_stcore/upload_file/7f5b64dc-851a-44a0-b979-4a6c34e25983/2a36e480-e33b-4653-94a8-d9e1c241304e"
+) is not a valid file or url
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 19, in ingest
+    self.docs = loadpdf(self._doc)
+                ~~~~~~~^^^^^^^^^^^
+  File "E:\project\RAG\Ingestion\loadfile.py", line 8, in loadpdf
+    return PyMuPDFLoader(file).load()
+           ~~~~~~~~~~~~~^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_community\document_loaders\pdf.py", line 822, in __init__
+    super().__init__(file_path, headers=headers)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_community\document_loaders\pdf.py", line 140, in __init__
+    raise ValueError("File path %s is not a valid file or url" % self.file_path)
+ValueError: File path UploadedFile(file_id='2a36e480-e33b-4653-94a8-d9e1c241304e', name='Scheduling Assignment.pdf', type='application/pdf', size=90298, _file_urls=file_id: "2a36e480-e33b-4653-94a8-d9e1c241304e"
+upload_url: "/_stcore/upload_file/7f5b64dc-851a-44a0-b979-4a6c34e25983/2a36e480-e33b-4653-94a8-d9e1c241304e"
+delete_url: "/_stcore/upload_file/7f5b64dc-851a-44a0-b979-4a6c34e25983/2a36e480-e33b-4653-94a8-d9e1c241304e"
+) is not a valid file or url
+03-01-26 16:53:12 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:53:12 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:53:22 - injest.py - 29 - ERROR - Ingestion failed....
+'str' object has no attribute 'seek'
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 14, in ingest
+    file_type = detect_file_type(self._doc)
+  File "E:\project\RAG\utils\get_filetype.py", line 2, in detect_file_type
+    file_obj.seek(0)
+    ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'seek'
+03-01-26 16:53:44 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:53:44 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:53:50 - injest.py - 29 - ERROR - Ingestion failed....
+'str' object has no attribute 'seek'
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 14, in ingest
+    file_type = detect_file_type(self._doc)
+  File "E:\project\RAG\utils\get_filetype.py", line 2, in detect_file_type
+    import struct
+        ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'seek'
+03-01-26 16:54:52 - injest.py - 29 - ERROR - Ingestion failed....
+pymupdf package not found, please install it with `pip install pymupdf`
+Traceback (most recent call last):
+  File "E:\project\venv\Lib\site-packages\langchain_community\document_loaders\parsers\pdf.py", line 954, in _lazy_parse
+    import pymupdf
+ModuleNotFoundError: No module named 'pymupdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 19, in ingest
+    self.docs = loadpdf(self._doc)
+                ~~~~~~~^^^^^^^^^^^
+  File "E:\project\RAG\Ingestion\loadfile.py", line 8, in loadpdf
+    return PyMuPDFLoader(file).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\project\venv\Lib\site-packages\langchain_community\document_loaders\pdf.py", line 853, in load
+    return list(self._lazy_load(**kwargs))
+  File "E:\project\venv\Lib\site-packages\langchain_community\document_loaders\pdf.py", line 850, in _lazy_load
+    yield from parser._lazy_parse(blob, text_kwargs=kwargs)
+  File "E:\project\venv\Lib\site-packages\langchain_community\document_loaders\parsers\pdf.py", line 991, in _lazy_parse
+    raise ImportError(
+    ...<2 lines>...
+    )
+ImportError: pymupdf package not found, please install it with `pip install pymupdf`
+03-01-26 16:56:11 - injest.py - 29 - ERROR - Ingestion failed....
+expected string or bytes-like object, got 'list'
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 22, in ingest
+    chunks = TextSplitter().splitter(self.docs)
+  File "E:\project\RAG\utils\text_splitter.py", line 13, in splitter
+    return self._splitter.split_text(doc)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 151, in split_text
+    return self._split_text(text, self._separators)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 111, in _split_text
+    if re.search(separator_, text):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+03-01-26 16:58:07 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:58:07 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:58:15 - injest.py - 29 - ERROR - Ingestion failed....
+expected string or bytes-like object, got 'list'
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 22, in ingest
+    print(self.docs)
+             ^^^^^^^
+  File "E:\project\RAG\utils\text_splitter.py", line 13, in splitter
+    return self._splitter.split_text(doc)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 151, in split_text
+    return self._split_text(text, self._separators)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 111, in _split_text
+    if re.search(separator_, text):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+03-01-26 16:58:39 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:58:39 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:58:45 - injest.py - 29 - ERROR - Ingestion failed....
+expected string or bytes-like object, got 'list'
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 22, in ingest
+    print(self._docs)
+             ^^^^^^^^
+  File "E:\project\RAG\utils\text_splitter.py", line 13, in splitter
+    return self._splitter.split_text(doc)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 151, in split_text
+    return self._split_text(text, self._separators)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 111, in _split_text
+    if re.search(separator_, text):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+03-01-26 16:58:59 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 16:58:59 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 16:59:07 - injest.py - 29 - ERROR - Ingestion failed....
+expected string or bytes-like object, got 'list'
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 22, in ingest
+    print(self._doc)
+             ^^^^^^^
+  File "E:\project\RAG\utils\text_splitter.py", line 13, in splitter
+    return self._splitter.split_text(doc)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 151, in split_text
+    return self._split_text(text, self._separators)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 111, in _split_text
+    if re.search(separator_, text):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+03-01-26 17:00:32 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:00:32 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:00:38 - injest.py - 29 - ERROR - Ingestion failed....
+expected string or bytes-like object, got 'list'
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 22, in ingest
+    docs = loadtext(self._doc)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\RAG\utils\text_splitter.py", line 13, in splitter
+    return self._splitter.split_text(doc)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 151, in split_text
+    return self._split_text(text, self._separators)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 111, in _split_text
+    if re.search(separator_, text):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+03-01-26 17:05:49 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:05:49 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:05:55 - injest.py - 29 - ERROR - Ingestion failed....
+expected string or bytes-like object, got 'list'
+Traceback (most recent call last):
+  File "E:\project\RAG\Ingestion\injest.py", line 22, in ingest
+    chunks = TextSplitter().splitter(self.docs)
+  File "E:\project\RAG\utils\text_splitter.py", line 13, in splitter
+    return self._splitter.split_documents(doc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 151, in split_text
+    return self._split_text(text, self._separators)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\venv\Lib\site-packages\langchain_text_splitters\character.py", line 111, in _split_text
+    if re.search(separator_, text):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+03-01-26 17:07:43 - injest.py - 26 - INFO - ingestion completed....
+03-01-26 17:11:23 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:11:23 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:16:38 - injest.py - 26 - INFO - ingestion completed....
+03-01-26 17:16:47 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:18:06 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:18:06 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:18:12 - posthog.py - 22 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+03-01-26 17:30:04 - injest.py - 26 - INFO - ingestion completed....
+03-01-26 17:30:10 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:36:55 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:37:09 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:37:31 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:39:17 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:39:17 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:41:27 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:41:27 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:41:59 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:42:14 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:42:14 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:42:24 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:43:39 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:43:39 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:43:50 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:45:46 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:45:46 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 17:45:55 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:46:51 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+03-01-26 17:48:27 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:48:46 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:49:10 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 17:51:22 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 17:51:22 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 18:02:27 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 18:02:40 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 18:03:06 - injest.py - 16 - ERROR - Ingestion failed invalid file format
+03-01-26 18:03:23 - injest.py - 26 - INFO - ingestion completed....
+03-01-26 18:03:30 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03-01-26 18:04:22 - SentenceTransformer.py - 219 - INFO - Use pytorch device_name: cpu
+03-01-26 18:04:22 - SentenceTransformer.py - 227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+03-01-26 18:04:59 - injest.py - 26 - INFO - ingestion completed....
+03-01-26 18:05:05 - _client.py - 1025 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
